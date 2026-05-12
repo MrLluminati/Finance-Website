@@ -14,16 +14,43 @@ This project will not begin as a real-time stock-data terminal. Instead, it will
 
 ## Current Stage
 
-Phase 0: Planning and documentation.
+Phase 1 has started.
 
-The repository will first contain:
+The repository now contains:
 
-- product plan;
+- planning documentation;
 - development roadmap;
 - technical architecture;
 - compliance and data-use principles;
-- MVP feature list;
-- future SaaS strategy.
+- initial Next.js + TypeScript + Tailwind CSS setup;
+- starter homepage using demo market data only.
+
+## Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MrLluminati/Finance-Website.git
+cd Finance-Website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Then open:
+
+```bash
+http://localhost:3000
+```
 
 ## Initial Constraints
 
