@@ -27,28 +27,30 @@ The repository now contains:
 
 ## Local Development
 
+These commands are written for PowerShell 7 on Windows.
+
 Clone the repository:
 
-```bash
+```powershell
 git clone https://github.com/MrLluminati/Finance-Website.git
-cd Finance-Website
+Set-Location Finance-Website
 ```
 
 Install dependencies:
 
-```bash
+```powershell
 npm install
 ```
 
 Run the development server:
 
-```bash
+```powershell
 npm run dev
 ```
 
-Then open:
+Then open this URL in your browser:
 
-```bash
+```text
 http://localhost:3000
 ```
 
